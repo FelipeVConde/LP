@@ -32,9 +32,8 @@ public class Lista {
         Integer qtdValores = leitor.nextInt();
 
         for (int i = 0; i < qtdValores; i++){
-            System.out.println(
-                    String.format("Informe o %d° valor: ", i + 1)
-            );Integer valorDigitado = leitor.nextInt();
+            System.out.println(String.format("Informe o %d° valor: ", i + 1));
+            Integer valorDigitado = leitor.nextInt();
             listaNumeros.add(valorDigitado);
         }
         System.out.println(listaNumeros);
